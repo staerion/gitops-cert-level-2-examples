@@ -12,10 +12,10 @@ spec:
   template:
     spec:
       containers:
-      - name: dummy-message
-        image: alpine
-        command:
-          - "sleep"
-          - "3"
+        - name: dummy-message
+          image: alpine
+          command:
+            - "sleep"
+            - "3"
       restartPolicy: Never
-  backoffLimit: 2    
+  backoffLimit: 2
